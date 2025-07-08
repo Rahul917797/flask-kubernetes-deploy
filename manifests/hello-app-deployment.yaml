@@ -3,7 +3,7 @@
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: kubernetes-demo-hello-app
+  name: hello-app
   labels: 
      app: hello-app
 
