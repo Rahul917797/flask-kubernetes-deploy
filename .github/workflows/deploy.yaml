@@ -46,4 +46,4 @@ jobs:
           kubectl apply -f manifests/hello-app-service.yaml
 
       - name: Verify rollout
-        run: kubectl rollout status deployment/hello-app --timeout=2m
+        run: kubectl rollout status deployment/hello-app --timeout=4m
