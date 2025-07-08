@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: DOCKER_IMAGE
+        image: public.ecr.aws/g9o1l2o0/java-app:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
