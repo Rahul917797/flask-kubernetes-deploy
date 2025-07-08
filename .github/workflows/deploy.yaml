@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: us-east-1
-  EKS_CLUSTER_NAME: Rahul
+  EKS_CLUSTER_NAME: kube
   ECR_REGISTRY: public.ecr.aws/g9o1l2o0
   ECR_REPOSITORY: java-app
   IMAGE_TAG: latest
