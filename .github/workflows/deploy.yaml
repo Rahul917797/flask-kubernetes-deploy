@@ -6,7 +6,7 @@ on:
     branches: [ master ]
 
 env:
-  ECR_REPOSITORY: flask-app
+  ECR_REPOSITORY: java-app
   EKS_CLUSTER_NAME: Kube
   AWS_REGION: us-east-1
 
